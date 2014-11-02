@@ -103,7 +103,6 @@
 *update
 */
 
-
 #homeOfScots{
 	 display: block;
     margin-left: auto;
@@ -114,6 +113,8 @@
 	margin-top: .5em;
 	margin-right: 10px;
 	float:right;
-    
-	
+}
+iframe[seamless] {
+    border: none;
+    width: auto;
 }
