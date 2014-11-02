@@ -9,27 +9,21 @@
 .Tabs {
 	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
-	box-shadow:inset 0px 1px 0px 0px #fff6af;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
-	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	box-shadow:inset 0px 1px 0px 0px #EC5024;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #EC5024), color-stop(1, #EC5024) );
+	background:-moz-linear-gradient( center top, #EC5024 5%, #ffab23 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
 	background-color:#ffec64;
-	-webkit-border-top-left-radius:15px;
-	-moz-border-radius-topleft:15px;
 	border-top-left-radius:15px;
-	-webkit-border-top-right-radius:15px;
-	-moz-border-radius-topright:15px;
 	border-top-right-radius:15px;
-	-webkit-border-bottom-right-radius:0px;
-	-moz-border-radius-bottomright:0px;
 	border-bottom-right-radius:0px;
-	-webkit-border-bottom-left-radius:0px;
-	-moz-border-radius-bottomleft:0px;
 	border-bottom-left-radius:0px;
 	text-indent:0px;
-	border:2px solid #ffaa22;
+	border:2px solid;
+	margin-top: 5.5px;
+	margin-left: 6px;
 	display:inline-block;
-	color:#333333;
+	color:#14265b;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
@@ -39,16 +33,23 @@
 	width:91px;
 	text-decoration:none;
 	text-align:center;
-	text-shadow:1px 1px 0px #ffee66;
+	text-shadow:1px 1px 0px #EC5024;
 }
 .Tabs:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
 	background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
 	background-color:#ffab23;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	text-shadow:1px 1px 0px #ffee66;
+
 }.Tabs:active {
 	position:relative;
 	top:1px;
+	background-color:#ffec64;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	text-shadow:1px 1px 0px #ffee66;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
 	
 }
 
