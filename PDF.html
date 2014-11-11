@@ -18,21 +18,23 @@
   </head> 
 
   <body background = "images/background.jpg" > 
-  	<div style = "margin-left: 3em; margin-top:.5em;">
-  	<h1 style = " color:white">PDF's</h1>
-   
-<table>
-    <thead><tr>
-        <th style = " color:white"> Date</th>
-        <th style = " color:white">Title</th>
+        <h1 class = "offWhite">Sport Team PDF's</h1>
+    <table style ="margin-left: 3em">
+    <thead ><tr>
+        <th class = "offWhite"> Date</th>
+        <th class = "offWhite">Title</th>
     </tr></thead>
     <tbody data-bind="foreach: pdfs">
         <tr>
-            <td data-bind="text: date"></td>
-            <td><input data-bind="value: name" /></td>
+            <td class = "offWhite" data-bind="text: date"></td>
+            <td><input type="offWhite" style= "background-color: color:rgb(215, 212, 212);" data-bind="value: name"></td>
           </tr>
     </tbody>
 </table>
+  	<div style = "margin-left: 3em; margin-top:.5em;">
+
+   
+
 
 <button data-bind="click: addPDF">Upload Another PDF</button>
 

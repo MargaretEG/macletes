@@ -118,3 +118,36 @@ iframe[seamless] {
     border: none;
     width: auto;
 }
+/*off white primarilyt for text on background
+*/.offWhite{
+	color:rgb(215, 212, 212);
+}
+
+/*css for maxes.html*/
+.Absolute-Center {
+  /*resizes based on content, the grey box containing lift maxes*/
+ background-color: rgb(192, 190, 190);
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  max-height: 300px;
+}
+.contentArea{
+  position:relative;
+  margin-top: 2em;
+  height: 3em;
+  width: auto;
+}
+#addNewMax{
+	margin-top: 5px;
+	float: right;
+    margin-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    overflow:auto;
+}
+.lables{
+	color: black;
+}
+

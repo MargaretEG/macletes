@@ -19,17 +19,17 @@
 
   <body background = "images/background.jpg" > 
   	<div style = "margin-left: 3em; margin-top:.5em;">
-  	<h1 style = " color:white">PDF's</h1>
+  	<h1 class ="offWhite">PDF's</h1>
    
-<table>
+<table style ="margin-left: 3em">
     <thead><tr>
-        <th style = " color:white"> Date</th>
-        <th style = " color:white">Title</th>
+        <th class ="offWhite"> Date</th>
+        <th class ="offWhite">Title</th>
     </tr></thead>
     <tbody data-bind="foreach: pdfs">
         <tr>
-            <td align = "center" data-bind="text: date"></td>
-            <td align = "center" data-bind="text: name"></td>
+            <td class = "offWhite"align = "center" data-bind="text: date"></td>
+            <td style = "color: #EC5024" align = "center" data-bind="text: name"></td>
           </tr>
     </tbody>
 </table>
