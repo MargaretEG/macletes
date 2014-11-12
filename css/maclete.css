@@ -128,7 +128,7 @@ iframe[seamless] {
 .Absolute-Center {
   /*resizes based on content, the grey box containing lift maxes*/
  background-color: rgb(192, 190, 190);
-  width: 50%;
+  width: 30%;
   overflow: auto;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -140,10 +140,28 @@ iframe[seamless] {
   height: 3em;
   width: auto;
 }
+
 #addNewMax{
 	margin-top: 5px;
 	float: right;
-    margin-right: 25%;
+    margin-right: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    overflow:auto;
+}
+#edit{
+	margin-top: 5px;
+	float: right;
+    margin-right: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    overflow:auto;
+}
+#addNewMax2{
+	margin-top: 5px;
+	margin-bottom: .2em;
+	float: right;
+    margin-right: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     overflow:auto;

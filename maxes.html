@@ -2,7 +2,10 @@
 <html> 
   <head> 
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script src="maxes.js"></script>
+    
+ 
+
+    <link href = "css/maxes.css" type = "text/css" rel = "stylesheet">
 
     <link href = "css/maclete.css" type = "text/css" rel = "stylesheet">
     <div>
@@ -15,27 +18,58 @@
     </div>
   </head> 
 
-  <body background = "images/background.jpg" > 
+  <body background = "images/background.jpg"> 
     <div class ="contentArea">
   <div class ="Absolute-Center">
-        <table>
+      
+    <form class = "informationEdit" style="display:none" >
+    
+      <table style ="width: 101%; margin-left:-1px">
           <thead>
             <tr>
-              <th class ="lables"> Lift</th>
-              <th class ="lables">Max</th>
+              <th class ="lables" > Lift</th>
+              <th class ="lables" >Max</th>
             </tr>
           </thead>
-          <tbody data-bind="foreach: pdfs">
+          <tbody data-bind="foreach: maxes">
             <tr>
-              <td data-bind="text: date"></td>
-              <td><input data-bind="value: name" /></td>
+              <td><input data-bind="value: lift" /></td>
+              <td><input data-bind="value: max" /></td>
             </tr>
           </tbody>
         </table>
+      <button id ="addNewMax2"id = "done">Done</button>
+      <button id ="addNewMax2"id = "addNewMax" data-bind="click: addMax">Add New Max</button>
+
+
+    </form>
+
+       <form class = "information">
+    
+      <table id="work" style ="width: 101%;">
+          <thead>
+            <tr>
+              <th class ="lables" style ="width:50%"> Lift</th>
+              <th class ="lables" >Max</th>
+            </tr>
+          </thead>
+          <tbody data-bind="foreach: maxes">
+            <tr>
+              <td ><a data-bind="text: lift">id</a></td>
+              <td><a data-bind="text: max">sdf</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+
+    </form>
         <div style="clear:both"></div>
       </div>
-      <button id = "addNewMax">Edit Max</button>
+      <button id = "edit" >Edit Max</button>
     </div>
+<script type="text/javascript" src="knockout-3.2.0.js"></script>   
+
+      <script src="maxes.js"></script>
   </body> 
 </html>
 
