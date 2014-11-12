@@ -6,4 +6,16 @@ $(document).ready(function(){
   });
 });
 
-// $( ".Absolute-Center" ).load( "testing.html #knocked" );
+// <!DOCTYPE html>
+// <html>
+// <body>
+
+
+// <input  type="button" value="Hide text" 
+// onclick="document.getElementById('p1').style.visibility='hidden'">
+
+// <input id ="p1" type="button" value="Show text"
+// onclick="document.getElementById('p1').style.visibility='visible'">
+
+// </body>
+// </html>
