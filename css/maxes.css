@@ -7,11 +7,27 @@ table, th, td {
 
     border-collapse: collapse;
 }
-table#work th	{
+table#work th	{ /*/creates an absent center line for the top row*/
     background-color: rgb(192, 190, 190);
     border: rgb(192, 190, 190);
     /*color: rgb(192, 190, 190);*/
 }
 input{
 	margin: .3em;
+}
+#studentName{
+background: none}
+
+#studentText{
+	text-align:center
+}
+#dropdown{
+	margin-left:40%
+}
+.table{
+	width: 101%;
+	margin-left: -1px;
+} 
+#lift{
+	width: 50%;
 }

@@ -136,7 +136,7 @@ iframe[seamless] {
 }
 .contentArea{
   position:relative;
-  margin-top: 2em;
+  margin-top: 5em;
   height: 3em;
   width: auto;
 }
@@ -172,4 +172,6 @@ iframe[seamless] {
 .tableSpacing{
 	margin-left: 1em;
 }
-
+.orangeColor{
+	color:#EC5024;
+}
